@@ -1,0 +1,582 @@
+{
+    "total_runtime": 195.5497269630432,
+    "rules": {
+        "fastqc": {
+            "mean-runtime": 6.802400430043538,
+            "min-runtime": 6.492436647415161,
+            "max-runtime": 7.340283155441284
+        },
+        "trim_reads_se": {
+            "mean-runtime": 3.2797300815582275,
+            "min-runtime": 3.2797300815582275,
+            "max-runtime": 3.2797300815582275
+        },
+        "trim_reads_pe": {
+            "mean-runtime": 4.841729521751404,
+            "min-runtime": 4.820660591125488,
+            "max-runtime": 4.862798452377319
+        },
+        "map_reads": {
+            "mean-runtime": 2.7004571755727134,
+            "min-runtime": 2.2739107608795166,
+            "max-runtime": 3.144852876663208
+        },
+        "mark_duplicates": {
+            "mean-runtime": 3.3774335384368896,
+            "min-runtime": 2.8697266578674316,
+            "max-runtime": 4.124551057815552
+        },
+        "recalibrate_base_qualities": {
+            "mean-runtime": 9.790675083796183,
+            "min-runtime": 9.474523782730103,
+            "max-runtime": 10.318025827407837
+        },
+        "samtools_stats": {
+            "mean-runtime": 2.5558787186940513,
+            "min-runtime": 2.0368871688842773,
+            "max-runtime": 3.113210678100586
+        },
+        "call_variants": {
+            "mean-runtime": 65.02713191509247,
+            "min-runtime": 64.92429375648499,
+            "max-runtime": 65.12997007369995
+        },
+        "combine_calls": {
+            "mean-runtime": 7.033764123916626,
+            "min-runtime": 7.033764123916626,
+            "max-runtime": 7.033764123916626
+        },
+        "genotype_variants": {
+            "mean-runtime": 6.2636778354644775,
+            "min-runtime": 6.2636778354644775,
+            "max-runtime": 6.2636778354644775
+        },
+        "merge_variants": {
+            "mean-runtime": 3.110159397125244,
+            "min-runtime": 3.110159397125244,
+            "max-runtime": 3.110159397125244
+        },
+        "select_calls": {
+            "mean-runtime": 4.883207559585571,
+            "min-runtime": 4.838058948516846,
+            "max-runtime": 4.928356170654297
+        },
+        "hard_filter_calls": {
+            "mean-runtime": 5.981261730194092,
+            "min-runtime": 5.968952417373657,
+            "max-runtime": 5.993571043014526
+        },
+        "merge_calls": {
+            "mean-runtime": 3.8693816661834717,
+            "min-runtime": 3.8693816661834717,
+            "max-runtime": 3.8693816661834717
+        },
+        "snpeff": {
+            "mean-runtime": 37.75883364677429,
+            "min-runtime": 37.75883364677429,
+            "max-runtime": 37.75883364677429
+        },
+        "vcf_to_tsv": {
+            "mean-runtime": 0.5382018089294434,
+            "min-runtime": 0.5382018089294434,
+            "max-runtime": 0.5382018089294434
+        },
+        "multiqc": {
+            "mean-runtime": 6.66620135307312,
+            "min-runtime": 6.66620135307312,
+            "max-runtime": 6.66620135307312
+        },
+        "plot_stats": {
+            "mean-runtime": 2.0498249530792236,
+            "min-runtime": 2.0498249530792236,
+            "max-runtime": 2.0498249530792236
+        },
+        "all": {
+            "mean-runtime": 0.0004317760467529297,
+            "min-runtime": 0.0004317760467529297,
+            "max-runtime": 0.0004317760467529297
+        }
+    },
+    "files": {
+        "qc/fastqc/B-1.html": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:42 2019",
+            "duration": 6.492436647415161,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/fastqc/B-1.zip": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:42 2019",
+            "duration": 6.492436647415161,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-2.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:39 2019",
+            "duration": 3.2797300815582275,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/fastqc/B-2.html": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:42 2019",
+            "duration": 6.57448148727417,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/fastqc/B-2.zip": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:42 2019",
+            "duration": 6.57448148727417,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-1.1.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.862798452377319,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-1.2.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.862798452377319,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-1.1.unpaired.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.862798452377319,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-1.2.unpaired.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.862798452377319,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/B-1.trimlog.txt": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.862798452377319,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/fastqc/A-1.html": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:43 2019",
+            "duration": 7.340283155441284,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/fastqc/A-1.zip": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:43 2019",
+            "duration": 7.340283155441284,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/A-1.1.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.820660591125488,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/A-1.2.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.820660591125488,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/A-1.1.unpaired.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.820660591125488,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/A-1.2.unpaired.fastq.gz": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.820660591125488,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "trimmed/A-1.trimlog.txt": {
+            "start-time": "Sat Apr 27 05:00:35 2019",
+            "stop-time": "Sat Apr 27 05:00:40 2019",
+            "duration": 4.820660591125488,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "mapped/B-1.sorted.bam": {
+            "start-time": "Sat Apr 27 05:00:43 2019",
+            "stop-time": "Sat Apr 27 05:00:46 2019",
+            "duration": 3.144852876663208,
+            "priority": 0,
+            "resources": {
+                "_cores": 7,
+                "_nodes": 1
+            }
+        },
+        "dedup/B-1.bam": {
+            "start-time": "Sat Apr 27 05:00:46 2019",
+            "stop-time": "Sat Apr 27 05:00:49 2019",
+            "duration": 3.1380228996276855,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/dedup/B-1.metrics.txt": {
+            "start-time": "Sat Apr 27 05:00:46 2019",
+            "stop-time": "Sat Apr 27 05:00:49 2019",
+            "duration": 3.1380228996276855,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "recal/B-1.bam": {
+            "start-time": "Sat Apr 27 05:00:49 2019",
+            "stop-time": "Sat Apr 27 05:00:59 2019",
+            "duration": 9.474523782730103,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "mapped/A-1.sorted.bam": {
+            "start-time": "Sat Apr 27 05:00:59 2019",
+            "stop-time": "Sat Apr 27 05:01:01 2019",
+            "duration": 2.2739107608795166,
+            "priority": 0,
+            "resources": {
+                "_cores": 7,
+                "_nodes": 1
+            }
+        },
+        "qc/samtools-stats/B-1.txt": {
+            "start-time": "Sat Apr 27 05:01:01 2019",
+            "stop-time": "Sat Apr 27 05:01:03 2019",
+            "duration": 2.0368871688842773,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "dedup/A-1.bam": {
+            "start-time": "Sat Apr 27 05:01:01 2019",
+            "stop-time": "Sat Apr 27 05:01:04 2019",
+            "duration": 2.8697266578674316,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/dedup/A-1.metrics.txt": {
+            "start-time": "Sat Apr 27 05:01:01 2019",
+            "stop-time": "Sat Apr 27 05:01:04 2019",
+            "duration": 2.8697266578674316,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "recal/A-1.bam": {
+            "start-time": "Sat Apr 27 05:01:04 2019",
+            "stop-time": "Sat Apr 27 05:01:13 2019",
+            "duration": 9.57947564125061,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "mapped/B-2.sorted.bam": {
+            "start-time": "Sat Apr 27 05:01:13 2019",
+            "stop-time": "Sat Apr 27 05:01:16 2019",
+            "duration": 2.682607889175415,
+            "priority": 0,
+            "resources": {
+                "_cores": 7,
+                "_nodes": 1
+            }
+        },
+        "qc/samtools-stats/A-1.txt": {
+            "start-time": "Sat Apr 27 05:01:16 2019",
+            "stop-time": "Sat Apr 27 05:01:19 2019",
+            "duration": 3.113210678100586,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "dedup/B-2.bam": {
+            "start-time": "Sat Apr 27 05:01:16 2019",
+            "stop-time": "Sat Apr 27 05:01:20 2019",
+            "duration": 4.124551057815552,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/dedup/B-2.metrics.txt": {
+            "start-time": "Sat Apr 27 05:01:16 2019",
+            "stop-time": "Sat Apr 27 05:01:20 2019",
+            "duration": 4.124551057815552,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "called/A.21.g.vcf.gz": {
+            "start-time": "Sat Apr 27 05:01:16 2019",
+            "stop-time": "Sat Apr 27 05:02:21 2019",
+            "duration": 65.12997007369995,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "recal/B-2.bam": {
+            "start-time": "Sat Apr 27 05:01:20 2019",
+            "stop-time": "Sat Apr 27 05:01:30 2019",
+            "duration": 10.318025827407837,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/samtools-stats/B-2.txt": {
+            "start-time": "Sat Apr 27 05:01:30 2019",
+            "stop-time": "Sat Apr 27 05:01:33 2019",
+            "duration": 2.51753830909729,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "called/B.21.g.vcf.gz": {
+            "start-time": "Sat Apr 27 05:01:30 2019",
+            "stop-time": "Sat Apr 27 05:02:35 2019",
+            "duration": 64.92429375648499,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "called/all.21.g.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:35 2019",
+            "stop-time": "Sat Apr 27 05:02:42 2019",
+            "duration": 7.033764123916626,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "genotyped/all.21.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:42 2019",
+            "stop-time": "Sat Apr 27 05:02:49 2019",
+            "duration": 6.2636778354644775,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "genotyped/all.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:49 2019",
+            "stop-time": "Sat Apr 27 05:02:52 2019",
+            "duration": 3.110159397125244,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "filtered/all.indels.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:52 2019",
+            "stop-time": "Sat Apr 27 05:02:57 2019",
+            "duration": 4.838058948516846,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "filtered/all.snvs.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:52 2019",
+            "stop-time": "Sat Apr 27 05:02:57 2019",
+            "duration": 4.928356170654297,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "filtered/all.indels.hardfiltered.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:57 2019",
+            "stop-time": "Sat Apr 27 05:03:03 2019",
+            "duration": 5.993571043014526,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "filtered/all.snvs.hardfiltered.vcf.gz": {
+            "start-time": "Sat Apr 27 05:02:57 2019",
+            "stop-time": "Sat Apr 27 05:03:03 2019",
+            "duration": 5.968952417373657,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "filtered/all.vcf.gz": {
+            "start-time": "Sat Apr 27 05:03:03 2019",
+            "stop-time": "Sat Apr 27 05:03:07 2019",
+            "duration": 3.8693816661834717,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "annotated/all.vcf.gz": {
+            "start-time": "Sat Apr 27 05:03:07 2019",
+            "stop-time": "Sat Apr 27 05:03:44 2019",
+            "duration": 37.75883364677429,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "snpeff/all.csv": {
+            "start-time": "Sat Apr 27 05:03:07 2019",
+            "stop-time": "Sat Apr 27 05:03:44 2019",
+            "duration": 37.75883364677429,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "tables/calls.tsv.gz": {
+            "start-time": "Sat Apr 27 05:03:44 2019",
+            "stop-time": "Sat Apr 27 05:03:45 2019",
+            "duration": 0.5382018089294434,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "qc/multiqc.html": {
+            "start-time": "Sat Apr 27 05:03:44 2019",
+            "stop-time": "Sat Apr 27 05:03:51 2019",
+            "duration": 6.66620135307312,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "plots/depths.svg": {
+            "start-time": "Sat Apr 27 05:03:45 2019",
+            "stop-time": "Sat Apr 27 05:03:47 2019",
+            "duration": 2.0498249530792236,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "plots/allele-freqs.svg": {
+            "start-time": "Sat Apr 27 05:03:45 2019",
+            "stop-time": "Sat Apr 27 05:03:47 2019",
+            "duration": 2.0498249530792236,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        }
+    }
+}
