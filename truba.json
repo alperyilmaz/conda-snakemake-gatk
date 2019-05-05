@@ -1,0 +1,14 @@
+{
+    "__default__" :
+    {
+        "account" : "USERNAME",
+        "time" : "00:15:00",
+        "n" : 10,
+        "partition" : "short",
+        "constraint": "levrekv2"
+    },
+    "compute1" :
+    {
+        "time" : "00:20:00"
+    }
+}
