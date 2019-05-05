@@ -28,3 +28,11 @@ export PATH="/truba/home/USERNAME/miniconda3/bin:$PATH"
 ```
 
 > you might need to comment out `conda initialize` section in `.bashrc`
+
+The pipeline will run the following rules in order:
+
+![dag-rules](dag-rules.svg)
+
+Speficic for this test, following DAG will be executed for given samples and units.
+
+![whole-dag](dag.svg)
