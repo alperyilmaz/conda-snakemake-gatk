@@ -4,6 +4,12 @@
 
 snakemake pipeline for gatk running on binder
 
+## local use
+
+```bash
+snakemake  --use-conda --cores 8
+```
+
 ## cluster instructions
 
 after installing conda in the cluster, edit the `truba.json` file and then please run following commands
