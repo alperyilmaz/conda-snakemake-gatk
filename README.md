@@ -4,6 +4,16 @@
 
 snakemake pipeline for gatk running on binder
 
+## initialize index and dictionary
+
+If you clone this repo, index and dictionary are already included. If you use different genome or change location of genome please run initialize rule first
+
+```bash
+snakemake --use-conda -s rules/initialize.smk initialize_index
+snakemake --use-conda -s rules/initialize.smk initialize_fa_index
+snakemake --use-conda -s rules/initialize.smk generate_dictionary
+```
+
 ## local use
 
 ```bash
