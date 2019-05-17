@@ -9,15 +9,19 @@ snakemake pipeline for gatk running on binder
 If you clone this repo, index and dictionary are already included. If you use different genome or change location of genome please run initialize rule first
 
 ```bash
-snakemake --use-conda -s rules/initialize.smk initialize_index
-snakemake --use-conda -s rules/initialize.smk initialize_fa_index
-snakemake --use-conda -s rules/initialize.smk generate_dictionary
+snakemake --use-conda -s rules/initialize.smk 
 ```
 
 ## local use
 
 ```bash
 snakemake  --use-conda --cores 8
+```
+
+after pipeline finishes, you can generate the report with following command
+
+```bash
+snakemake --use-conda --report gatk-report.html
 ```
 
 ## cluster instructions
@@ -36,7 +40,7 @@ snakemake -j 999 --use-conda --cluster-config truba.json --cluster "sbatch -A {c
 snakemake --use-conda --report gatk-report.html
 ```
 
-please make sure your `.bashrc` file contains the following lines 
+please make sure your `.bashrc` file contains the following lines in your TRUBA home directory
 
 ```
 . "/truba/home/USERNAME/miniconda3/etc/profile.d/conda.sh"
