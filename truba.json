@@ -3,7 +3,7 @@
     {
         "account" : "USERNAME",
         "time" : "00:15:00",
-        "n" : 10,
+        "n" : 16,
         "partition" : "short",
         "constraint": "levrekv2"
     },
